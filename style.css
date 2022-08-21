@@ -1,0 +1,649 @@
+@font-face {
+  font-family: 'Gunterz';
+  src: url(fonts/gunterz-medium-webfont.woff);
+}
+
+/* Desktop CSS */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #191919;
+  }
+
+  /* hero section */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    height: 100%;
+    width: 100%;
+  }
+
+  /*hero text */
+  .herot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: "Gunterz";
+    font-size: 6.3em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.01em;
+    -webkit-text-stroke-color: white;
+    text-shadow: -8px -8px #fff;
+    margin-bottom: 0.3em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* role chip */
+  .chip {
+    --color: #ffffff;
+    --background: #ff004d;
+    background: var(--background);
+    padding: 0.75em 1.25em;
+    font-family: "Gunterz";
+    color: var(--color);
+    font-size: 1.5em;
+    box-shadow: var(--color) 0.375em 0.375em 0em;
+    transition: all 400ms;
+  }
+
+  .chip:hover {
+    transform: translate(0.25em, 00.25em);
+    box-shadow: var(--color) 0.25em 0.25em 0em;
+  }
+
+  /* background shape */
+  .radi {
+    background-image: radial-gradient(circle at 50% 50%, #ff004d, #191919 70%);
+    height: 55em;
+    width: 55em;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18.125em;
+  }
+
+  .item-box {
+    width: 67.75em;
+    align-items: flex-start;
+  }
+
+  .subhead {
+    font-family: "Gunterz";
+    font-size: 2em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.003em;
+    -webkit-text-stroke-color: white;
+    text-shadow: -5px -5px #fff;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.938em;
+  }
+
+  .intro {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .pp {
+    margin-top: 56px;
+  }
+
+  .durgesh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25em;
+    width: 25em;
+    --color: #ff004d;
+    --background: #ffffff;
+    background: var(--background);
+    padding: 0.25em 0.25em;
+    color: var(--color);
+    box-shadow: var(--color) 0.75em 0.75em 0em;
+    transition: all 400ms;
+  }
+
+  .durgesh:hover {
+    transform: translate(0.25em, 00.25em);
+    box-shadow: var(--color) 0.4em 0.4em 0em;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 1.2em;
+    margin-top: 4.5em;
+  }
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 32.75em;
+  }
+  .thumbnail {
+    width: 32em;
+    height: 24em;
+    display: flex;
+    --color: #ff004d;
+    --background: #ffffff;
+    background: var(--background);
+    padding: 0.25em 0.25em;
+    color: var(--color);
+    box-shadow: var(--color) 0.5em 0.5em 0em;
+    transition: all 400ms;
+  }
+
+  .thumbnail:hover {
+    transform: translate(0.25em, 00.25em);
+    box-shadow: var(--color) 0.2em 0.2em 0em;
+  }
+  .title {
+    padding-top: 1.2em;
+    font-family: "Gunterz";
+    color: #ffffff;
+    font-size: 1.25em;
+    line-height: 1.7;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .card_list {
+    margin-top: 4.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 8em;
+  }
+
+  .social_card {
+    color: #ff004d;
+    width: 5em;
+    height: 5em;
+    --background: #ffffff;
+    --color: #ff004d;
+    background: var(--background);
+    padding: 2em 2em;
+    color: var(--color);
+    box-shadow: var(--color) 0.75em 0.75em 0em;
+    transition: all 400ms;
+  }
+
+  .social_card:hover {
+    transform: translate(0.25em, 00.25em);
+    box-shadow: var(--color) 0.35em 0.35em 0em;
+  }
+
+  .icon {
+    width: 4.5em;
+    height: 4.5em;
+  }
+}
+
+/* media query for tablet */
+@media screen and (max-width: 1023px) {
+  body {
+    background-color: #191919;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    height: 100%;
+    width: 100%;
+  }
+
+  /* background shape */
+  .radi {
+    background-image: radial-gradient(circle at 50% 50%, #ff004d, #191919 70%);
+    height: 44.75em;
+    width: 44.75em;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*hero text */
+  .herot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: "Gunterz";
+    font-size: 5em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.01em;
+    -webkit-text-stroke-color: white;
+    text-shadow: -4px -4px #fff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* role chip */
+  .chip {
+    --color: #ffffff;
+    --background: #ff004d;
+    background: var(--background);
+    padding: 0.75em 0.5em;
+    font-family: "Gunterz";
+    color: var(--color);
+    font-size: 1.25em;
+    box-shadow: var(--color) 0.375em 0.375em 0em;
+    transition: all 400ms;
+  }
+
+  .chip:hover {
+    transform: translate(0.25em, 00.25em);
+    box-shadow: var(--color) 0.2em 0.2em 0em;
+  }
+
+  .subhead {
+    font-family: "Gunterz";
+    font-size: 1.5em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.003em;
+    -webkit-text-stroke-color: white;
+    text-shadow: -5px -5px #fff;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12.5em;
+  }
+
+  .item-box {
+    display: flex;
+    width: 44.75em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4.5em;
+  }
+
+  .intro {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin-top: 48px;
+    color: #fff;
+  }
+
+  .pp {
+    margin-top: 40px;
+  }
+
+  img {
+    width: 378px;
+    height: 378px;
+  }
+
+  .durgesh {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 23.7em;
+    height: 23.7em;
+    --color: #ff004d;
+    --background: #ffffff;
+    background: var(--background);
+    padding: 0.25em 0.25em;
+    color: var(--color);
+    box-shadow: var(--color) 0.6em 0.6em 0em;
+    transition: all 400ms;
+  }
+
+  .durgesh:hover {
+    transform: translate(0.25em, 00.25em);
+    box-shadow: var(--color) 0.3em 0.3em 0em;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 3.5em;
+    margin-top: 1.5em;
+  }
+
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 32.75em;
+  }
+  .thumbnail {
+    width: 30em;
+    height: 22em;
+    display: flex;
+    --color: #ff004d;
+    --background: #ffffff;
+    background: var(--background);
+    padding: 0.25em 0.25em;
+    color: var(--color);
+    box-shadow: var(--color) 0.5em 0.5em 0em;
+    transition: all 400ms;
+  }
+
+  .thumbnail:hover {
+    transform: translate(0.25em, 00.25em);
+    box-shadow: var(--color) 0.2em 0.2em 0em;
+  }
+
+  .title {
+    padding-top: 1.2em;
+    font-family: "Gunterz";
+    color: #ffffff;
+    font-size: 1.25em;
+    line-height: 1.7;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .card_list {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 4em;
+  }
+
+  .social_card {
+    color: #ff004d;
+    width: 2.5em;
+    height: 2.5em;
+    --background: #ffffff;
+    --color: #ff004d;
+    background: var(--background);
+    padding: 2em 2em;
+    color: var(--color);
+    box-shadow: var(--color) 0.5em 0.5em 0em;
+    transition: all 400ms;
+  }
+
+  .social_card:hover {
+    transform: translate(0.25em, 00.25em);
+    box-shadow: var(--color) 0.2em 0.2em 0em;
+  }
+
+  .icon {
+    width: 4.5em;
+    height: 4.5em;
+  }
+}
+
+
+/* media query for tablet */
+@media screen and (max-width: 640px) and (min-width: 360px){
+ 
+body{
+  background-color: #191919;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+  height: 100%;
+  width: 100%;
+}
+
+/* background shape */
+.radi {
+  background-image: radial-gradient(circle at 50% 50%, #ff004d, #191919 70%);
+  height: 20.5em;
+  width: 20.5em;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*hero text */
+.herot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Gunterz";
+  font-size: 2.25em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.01em;
+  -webkit-text-stroke-color: white;
+  text-shadow: -4px -4px #fff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* role chip */
+.chip {
+  --color: #ffffff;
+  --background: #ff004d;
+  background: var(--background);
+  padding: 0.75em 0.5em;
+  font-family: "Gunterz";
+  color: var(--color);
+  font-size: 0.75em;
+  box-shadow: var(--color) 0.3em 0.3em 0em;
+  transition: all 400ms;
+}
+
+.chip:hover {
+  transform: translate(0.25em, 00.25em);
+  box-shadow: var(--color) 0.2em 0.2em 0em;
+}
+
+.subhead {
+  font-family: "Gunterz";
+  font-size: 1.15em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.003em;
+  -webkit-text-stroke-color: white;
+  text-shadow: -3px -3px #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.5em;
+}
+
+.item-box {
+  display: flex;
+  width: 20.5em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4.5em;
+}
+
+.intro {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+  text-align: left;
+  margin-top: 32px;
+  color: #fff;
+}
+
+.pp {
+  margin-top: 40px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.durgesh {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 9.3em;
+  height: 9.3em;
+  --color: #ff004d;
+  --background: #ffffff;
+  background: var(--background);
+  padding: 0.25em 0.25em;
+  color: var(--color);
+  box-shadow: var(--color) 0.3em 0.3em 0em;
+  transition: all 400ms;
+}
+
+.durgesh:hover {
+  transform: translate(0.25em, 00.25em);
+  box-shadow: var(--color) 0.1em 0.1em 0em;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 3.5em;
+  margin-top: 1.5em;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  width: 18em;
+}
+.thumbnail {
+  width: 18em;
+  height: 14em;
+  display: flex;
+  --color: #ff004d;
+  --background: #ffffff;
+  background: var(--background);
+  padding: 0.25em 0.25em;
+  color: var(--color);
+  box-shadow: var(--color) 0.5em 0.5em 0em;
+  transition: all 400ms;
+}
+
+.thumbnail:hover {
+  transform: translate(0.25em, 00.25em);
+  box-shadow: var(--color) 0.2em 0.2em 0em;
+}
+
+.title {
+  padding-top: 1.4em;
+  font-family: "Gunterz";
+  color: #ffffff;
+  font-size: 0.85em;
+  line-height: 1.7;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.card_list {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 4em;
+}
+
+.social_card {
+  color: #ff004d;
+  width: 2.5em;
+  height: 2.5em;
+  --background: #ffffff;
+  --color: #ff004d;
+  background: var(--background);
+  padding: 2em 2em;
+  color: var(--color);
+  box-shadow: var(--color) 0.5em 0.5em 0em;
+  transition: all 400ms;
+}
+
+.social_card:hover {
+  transform: translate(0.25em, 00.25em);
+  box-shadow: var(--color) 0.2em 0.2em 0em;
+}
+
+.icon {
+  width: 3.875em;
+  height: 3.875em;
+}
+  
+}
