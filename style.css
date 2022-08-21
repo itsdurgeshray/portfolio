@@ -469,6 +469,7 @@ body{
   -webkit-text-stroke-width: 0.01em;
   -webkit-text-stroke-color: white;
   text-shadow: -4px -4px #fff;
+  margin-bottom: 0.2em;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
