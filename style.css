@@ -74,7 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 18.125em;
+    margin-top: 20em;
   }
 
   .item-box {
@@ -509,7 +509,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6.5em;
+  margin-top: 12em;
 }
 
 .item-box {
