@@ -498,7 +498,7 @@ body{
 
 .subhead {
   font-family: "Gunterz";
-  font-size: 1.15em;
+  font-size: 1em;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0.006em;
   -webkit-text-stroke-color: white;
@@ -645,6 +645,256 @@ img {
 .icon {
   width: 3.875em;
   height: 3.875em;
+}  
 }
+
+
+/* Article  Web*/
+@media screen and (min-width: 1024px) {
+
+.titlebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.it-box {
+  width: 67.75em;
+  align-items: flex-start;
+}
+
+.navsize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5em;
+}
+
+.nav {
+  width: 67.75em;
+  align-items: flex-start;
+}
+
+.displayimg{
+  width: 67.75em;
+  align-items: center;
+  width: 67.75em;
+  height: auto;
+  border-radius: 8px;
+}
+
+.back{
+  color: #ff004d;
+  height: 3.5em;
+  width: 3.5em;
+}
+
+.sub-title{
+  font-family: "Gunterz";
+  color: #ffffff;
+  font-size: 1.8em;
+  line-height: 1.5;
+}
+
+.arti{
+  display: flex;
+  flex-direction: column;
+}
+
+.quote{
+  padding: 0.5em;
+  margin-top: 28px;
+  border-left: #ffffff solid 0.1em;
+  display: flex;
+  font-family: "poppins";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+h2{
+  font-family: "Gunterz";
+  color: #ffffff;
+  font-size: 2em;
+  margin-top: 4em;
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.5%;
+  text-align: left;
+  margin-top: 28px;
+  color: #fff;
+}
+}
+
+/* Article  Tablets*/
+@media screen and (max-width: 1023px){
   
+.titlebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.it-box {
+  width: 44.75em;
+  align-items: flex-start;
+}
+
+.navsize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5em;
+}
+
+.nav {
+  width: 44.75em;
+  align-items: flex-start;
+}
+
+.displayimg{
+  width: 44.75em;
+  align-items: center;
+  width: 44.75em;
+  height: auto;
+  border-radius: 8px;
+}
+
+.back{
+  color: #ff004d;
+  height: 2.8em;
+  width: 2.8em;
+}
+
+.sub-title{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Gunterz";
+  color: #ffffff;
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+.arti{
+  display: flex;
+  flex-direction: column;
+}
+
+.quote{
+  padding: 0.5em;
+  margin-top: 28px;
+  border-left: #ffffff solid 0.1em;
+  display: flex;
+  font-family: "poppins";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+h2{
+  font-family: "Gunterz";
+  color: #ffffff;
+  font-size: 2em;
+  margin-top: 4em;
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.5%;
+  text-align: left;
+  margin-top: 28px;
+  color: #fff;
+}
+}
+
+@media screen and (max-width: 640px) and (min-width: 360px){
+  .titlebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .it-box {
+    width: 20.5em;
+    align-items: flex-start;
+  }
+  
+  .navsize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5em;
+  }
+  
+  .nav {
+    width: 20.5em;
+    align-items: flex-start;
+  }
+  
+  .displayimg{
+    width: 20.5em;
+    align-items: center;
+    width: 20.5em;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .back{
+    color: #ff004d;
+    height: 2em;
+    width: 2em;
+  }
+  
+  .sub-title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Gunterz";
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .arti{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quote{
+    padding: 0.25em;
+    margin-top: 20px;
+    border-left: #ffffff solid 0.1em;
+    display: flex;
+    font-family: "poppins";
+    font-style: italic;
+    font-weight: 200;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  h2{
+    font-family: "Gunterz";
+    color: #ffffff;
+    font-size: 2em;
+    margin-top: 4em;
+  }
+  
+  p {
+    font-family: "Poppins";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5%;
+    text-align: left;
+    margin-top: 20px;
+    color: #fff;
+  }
 }
