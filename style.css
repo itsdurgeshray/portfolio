@@ -127,7 +127,7 @@
     padding: 0.25em 0.25em;
     color: var(--color);
     box-shadow: var(--color) 0.75em 0.75em 0em;
-    transition: all 200ms;
+    transition: all 400ms;
   }
 
   .durgesh:hover {
@@ -158,7 +158,7 @@
     padding: 0.25em 0.25em;
     color: var(--color);
     box-shadow: var(--color) 0.5em 0.5em 0em;
-    transition: all 200ms;
+    transition: all 400ms;
   }
 
   .thumbnail:hover {
@@ -196,7 +196,7 @@
     padding: 2em 2em;
     color: var(--color);
     box-shadow: var(--color) 0.75em 0.75em 0em;
-    transition: all 200ms;
+    transition: all 400ms;
   }
 
   .social_card:hover {
@@ -267,7 +267,7 @@
     color: var(--color);
     font-size: 1.25em;
     box-shadow: var(--color) 0.375em 0.375em 0em;
-    transition: all 200ms;
+    transition: all 400ms;
   }
 
   .chip:hover {
@@ -342,7 +342,7 @@
     padding: 0.25em 0.25em;
     color: var(--color);
     box-shadow: var(--color) 0.6em 0.6em 0em;
-    transition: all 200ms;
+    transition: all 400ms;
   }
 
   .durgesh:hover {
@@ -374,7 +374,7 @@
     padding: 0.25em 0.25em;
     color: var(--color);
     box-shadow: var(--color) 0.5em 0.5em 0em;
-    transition: all 200ms;
+    transition: all 400ms;
   }
 
   .thumbnail:hover {
@@ -413,7 +413,7 @@
     padding: 2em 2em;
     color: var(--color);
     box-shadow: var(--color) 0.5em 0.5em 0em;
-    transition: all 200ms;
+    transition: all 400ms;
   }
 
   .social_card:hover {
@@ -488,7 +488,7 @@ body{
   color: var(--color);
   font-size: 0.75em;
   box-shadow: var(--color) 0.3em 0.3em 0em;
-  transition: all 200ms;
+  transition: all 400ms;
 }
 
 .chip:hover {
@@ -563,7 +563,7 @@ img {
   padding: 0.25em 0.25em;
   color: var(--color);
   box-shadow: var(--color) 0.3em 0.3em 0em;
-  transition: all 200ms;
+  transition: all 400ms;
 }
 
 .durgesh:hover {
@@ -595,7 +595,7 @@ img {
   padding: 0.25em 0.25em;
   color: var(--color);
   box-shadow: var(--color) 0.5em 0.5em 0em;
-  transition: all 200ms;
+  transition: all 400ms;
 }
 
 .thumbnail:hover {
@@ -634,7 +634,7 @@ img {
   padding: 2em 2em;
   color: var(--color);
   box-shadow: var(--color) 0.5em 0.5em 0em;
-  transition: all 200ms;
+  transition: all 400ms;
 }
 
 .social_card:hover {
@@ -713,6 +713,13 @@ img {
   color: #ffffff;
 }
 
+.embed{
+  display: flex;
+  width: 67.75em;
+  height: auto;
+  margin-top: 28px;
+}
+
 h2{
   font-family: "Gunterz";
   color: #ffffff;
@@ -720,7 +727,17 @@ h2{
   margin-top: 4em;
 }
 
-p {
+.embed{
+  display: flex;
+  width: 67.75em;
+  height: auto;
+  margin-top: 28px;
+}
+.img{
+  width: 67.75em;
+  height: auto;
+}
+p, li, ul, strong {
   font-family: "Poppins";
   font-size: 20px;
   line-height: 32px;
@@ -729,10 +746,22 @@ p {
   margin-top: 28px;
   color: #fff;
 }
+
 }
 
 /* Article  Tablets*/
 @media screen and (max-width: 1023px){
+  
+  .embed{
+    display: flex;
+    width: 44.75em;
+    height: auto;
+    margin-top: 28px;
+  }
+  .img{
+    width: 44.75em;
+    height: auto;
+  }  
   
 .titlebox {
   display: flex;
@@ -805,7 +834,9 @@ h2{
   margin-top: 4em;
 }
 
-p {
+
+
+p, li, ul, strong {
   font-family: "Poppins";
   font-size: 20px;
   line-height: 32px;
@@ -817,6 +848,18 @@ p {
 }
 
 @media screen and (max-width: 640px) and (min-width: 360px){
+
+    
+  .embed{
+    display: flex;
+    width: 20.5em;
+    height: auto;
+    margin-top: 28px;
+  }
+  .img{
+    width: 20.5em;
+    height: auto;
+  }  
   .titlebox {
     display: flex;
     justify-content: center;
@@ -884,11 +927,11 @@ p {
   h2{
     font-family: "Gunterz";
     color: #ffffff;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 4em;
   }
   
-  p {
+  p, li, ul, strong {
     font-family: "Poppins";
     font-size: 14px;
     line-height: 20px;
