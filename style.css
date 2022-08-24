@@ -127,7 +127,7 @@
     padding: 0.25em 0.25em;
     color: var(--color);
     box-shadow: var(--color) 0.75em 0.75em 0em;
-    transition: all 400ms;
+    transition: all 200ms;
   }
 
   .durgesh:hover {
@@ -158,7 +158,7 @@
     padding: 0.25em 0.25em;
     color: var(--color);
     box-shadow: var(--color) 0.5em 0.5em 0em;
-    transition: all 400ms;
+    transition: all 200ms;
   }
 
   .thumbnail:hover {
@@ -196,7 +196,7 @@
     padding: 2em 2em;
     color: var(--color);
     box-shadow: var(--color) 0.75em 0.75em 0em;
-    transition: all 400ms;
+    transition: all 200ms;
   }
 
   .social_card:hover {
@@ -267,7 +267,7 @@
     color: var(--color);
     font-size: 1.25em;
     box-shadow: var(--color) 0.375em 0.375em 0em;
-    transition: all 400ms;
+    transition: all 200ms;
   }
 
   .chip:hover {
@@ -342,7 +342,7 @@
     padding: 0.25em 0.25em;
     color: var(--color);
     box-shadow: var(--color) 0.6em 0.6em 0em;
-    transition: all 400ms;
+    transition: all 200ms;
   }
 
   .durgesh:hover {
@@ -374,7 +374,7 @@
     padding: 0.25em 0.25em;
     color: var(--color);
     box-shadow: var(--color) 0.5em 0.5em 0em;
-    transition: all 400ms;
+    transition: all 200ms;
   }
 
   .thumbnail:hover {
@@ -413,7 +413,7 @@
     padding: 2em 2em;
     color: var(--color);
     box-shadow: var(--color) 0.5em 0.5em 0em;
-    transition: all 400ms;
+    transition: all 200ms;
   }
 
   .social_card:hover {
@@ -488,7 +488,7 @@ body{
   color: var(--color);
   font-size: 0.75em;
   box-shadow: var(--color) 0.3em 0.3em 0em;
-  transition: all 400ms;
+  transition: all 200ms;
 }
 
 .chip:hover {
@@ -563,7 +563,7 @@ img {
   padding: 0.25em 0.25em;
   color: var(--color);
   box-shadow: var(--color) 0.3em 0.3em 0em;
-  transition: all 400ms;
+  transition: all 200ms;
 }
 
 .durgesh:hover {
@@ -595,7 +595,7 @@ img {
   padding: 0.25em 0.25em;
   color: var(--color);
   box-shadow: var(--color) 0.5em 0.5em 0em;
-  transition: all 400ms;
+  transition: all 200ms;
 }
 
 .thumbnail:hover {
@@ -634,7 +634,7 @@ img {
   padding: 2em 2em;
   color: var(--color);
   box-shadow: var(--color) 0.5em 0.5em 0em;
-  transition: all 400ms;
+  transition: all 200ms;
 }
 
 .social_card:hover {
