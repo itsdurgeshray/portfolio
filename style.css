@@ -222,7 +222,7 @@
     align-items: center;
     justify-content: center;
     background-color: #191919;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
   }
 
@@ -857,7 +857,7 @@ p, li, ul, strong {
     margin-top: 28px;
   }
   .img{
-    width: 20.5em;
+    width: 100%;
     height: auto;
   }  
   .titlebox {
