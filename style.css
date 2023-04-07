@@ -743,7 +743,7 @@ p, li, ul, strong {
   line-height: 32px;
   letter-spacing: 0.5%;
   text-align: left;
-  margin-top: 28px;
+  margin-top: 8px;
   color: #fff;
 }
 
@@ -842,7 +842,7 @@ p, li, ul, strong {
   line-height: 32px;
   letter-spacing: 0.5%;
   text-align: left;
-  margin-top: 28px;
+  margin-top: 8px;
   color: #fff;
 }
 }
@@ -935,9 +935,9 @@ p, li, ul, strong {
     font-family: "Poppins";
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.5%;
+    letter-spacing: 0%;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 8px;
     color: #fff;
   }
 }
